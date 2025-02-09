@@ -1,33 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('images/geometric-pattern.jpg'); /* Set the geometric background */
-    background-size: cover;                            /* Ensures the background covers the entire screen */
-    background-position: center;                       /* Centers the background */
-    background-attachment: fixed;                      /* Keeps the background fixed while scrolling */
-    color: #fff;                                       /* Ensures readability of text against background */
-    text-align: center;                                /* Keeps content aligned in the center */
+    background-image: url('bimages/geometric-background.jpg');  /* Correct path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
     padding: 20px;
-}
-
-h1 {
-    color: #007bff;
-}
-
-h2 {
-    color: #fff;                                       /* Changes h2 text color to white for better contrast */
-    margin-top: 20px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-    color: #007bff;
-}
-
-a:hover {
-    color: #0056b3;
 }
