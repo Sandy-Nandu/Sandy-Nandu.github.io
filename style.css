@@ -1,22 +1,24 @@
-/* Global Styles */
+/* Body Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;  /* Light gray background for a clean, professional look */
+    background-color: #f4f4f4;  /* Light gray background */
     color: #333;                /* Dark gray text for readability */
-    text-align: center;         /* Centers content */
+    text-align: center;
     padding: 20px;
+    margin: 0;
 }
 
 /* Header Styles */
 header {
-    background-color: #343a40;  /* Dark background for the header */
-    color: #fff;                /* White text in header */
+    background-color: #003366;  /* Dark blue background */
+    color: #ffffff;             /* White text for contrast */
     padding: 40px;
+    text-align: center;
 }
 
 h1 {
     font-size: 36px;
-    color: #007bff;             /* Blue color for the main heading (professional color) */
+    color: #ffffff;             /* White text in header */
 }
 
 /* Section Styles */
@@ -30,11 +32,11 @@ section {
 /* Links */
 a {
     text-decoration: none;
-    color: #007bff;             /* Primary blue color for links */
+    color: #28a745;             /* Green color for links */
 }
 
 a:hover {
-    color: #0056b3;             /* Darker blue for hover effect */
+    color: #218838;             /* Darker green for hover effect */
 }
 
 /* Button Styles */
@@ -44,6 +46,7 @@ button, .btn {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    border-radius: 5px;         /* Rounded corners */
 }
 
 button:hover, .btn:hover {
@@ -51,5 +54,46 @@ button:hover, .btn:hover {
 }
 
 /* Footer Styles */
-footer 
+footer {
+    background-color: #212529;  /* Dark footer background */
+    color: #fff;                /* White text in footer */
+    padding: 20px;
+    text-align: center;
+}
 
+/* Card/Project Box */
+.project-card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Soft shadow effect */
+    padding: 20px;
+    border-radius: 8px;         /* Rounded corners for cards */
+    margin-top: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);  /* Hover effect for cards */
+}
+
+.project-card h3 {
+    color: #003366;             /* Dark blue for project titles */
+}
+
+.project-card p {
+    color: #6c757d;             /* Subtle text color for descriptions */
+}
+
+/* Footer text */
+footer p {
+    font-size: 14px;
+}
+
+/* Link in Projects Section */
+.project-card a {
+    color: #28a745;             /* Green color for project links */
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    color: #218838;             /* Darker green on hover */
+}
