@@ -1,8 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    text-align: center;
+    background-image: url('images/geometric-pattern.jpg'); /* Set the geometric background */
+    background-size: cover;                            /* Ensures the background covers the entire screen */
+    background-position: center;                       /* Centers the background */
+    background-attachment: fixed;                      /* Keeps the background fixed while scrolling */
+    color: #fff;                                       /* Ensures readability of text against background */
+    text-align: center;                                /* Keeps content aligned in the center */
     padding: 20px;
 }
 
@@ -11,7 +14,7 @@ h1 {
 }
 
 h2 {
-    color: #333;
+    color: #fff;                                       /* Changes h2 text color to white for better contrast */
     margin-top: 20px;
 }
 
