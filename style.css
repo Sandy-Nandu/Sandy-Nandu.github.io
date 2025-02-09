@@ -4,29 +4,43 @@ body {
     background-color: #f4f4f4;  /* Light gray background */
     color: #333;                /* Dark gray text for readability */
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     margin: 0;
 }
 
 /* Header Styles */
 header {
-    background-color: #003366;  /* Dark blue background */
+    background-color: #003366;  /* Dark blue background for professionalism */
     color: #ffffff;             /* White text for contrast */
-    padding: 40px;
+    padding: 60px;
     text-align: center;
+    border-radius: 8px;         /* Rounded corners for a sleek look */
 }
 
 h1 {
-    font-size: 36px;
-    color: #ffffff;             /* White text in header */
+    font-size: 40px;
+    color: #ffffff;             /* White text for header */
+    font-weight: bold;
+}
+
+header p {
+    font-size: 18px;
+    color: #f8f9fa;             /* Lighter gray for subheading */
 }
 
 /* Section Styles */
 section {
-    background-color: #ffffff;  /* White background for sections */
-    color: #333;                /* Dark text color */
-    padding: 30px;
-    margin-top: 20px;
+    background-color: #ffffff;  /* White background for clean design */
+    color: #333;                /* Dark text color for readability */
+    padding: 30px 40px;
+    margin-top: 30px;
+    border-radius: 10px;        /* Rounded corners for sections */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Soft shadow for depth */
+}
+
+h2, h3 {
+    color: #003366;             /* Dark blue for subheadings */
+    font-weight: 600;
 }
 
 /* Links */
@@ -44,9 +58,11 @@ button, .btn {
     background-color: #28a745;  /* Green background for buttons */
     color: #fff;                /* White text on buttons */
     border: none;
-    padding: 10px 20px;
+    padding: 12px 30px;
     cursor: pointer;
     border-radius: 5px;         /* Rounded corners */
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
 button:hover, .btn:hover {
@@ -59,28 +75,33 @@ footer {
     color: #fff;                /* White text in footer */
     padding: 20px;
     text-align: center;
+    border-top: 2px solid #f4f4f4;  /* Subtle line separating footer */
 }
 
 /* Card/Project Box */
 .project-card {
     background-color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Soft shadow effect */
-    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Soft shadow effect */
+    padding: 30px;
     border-radius: 8px;         /* Rounded corners for cards */
-    margin-top: 20px;
+    margin-top: 30px;
     transition: box-shadow 0.3s ease;
 }
 
 .project-card:hover {
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);  /* Hover effect for cards */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);  /* Hover effect for cards */
 }
 
 .project-card h3 {
     color: #003366;             /* Dark blue for project titles */
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .project-card p {
-    color: #6c757d;             /* Subtle text color for descriptions */
+    color: #6c757d;             /* Subtle gray for descriptions */
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* Footer text */
@@ -92,6 +113,7 @@ footer p {
 .project-card a {
     color: #28a745;             /* Green color for project links */
     text-decoration: none;
+    font-weight: 600;
 }
 
 .project-card a:hover {
