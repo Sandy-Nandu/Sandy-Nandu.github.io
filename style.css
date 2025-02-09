@@ -1,11 +1,54 @@
+/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('bimages/geometric-background.jpg');  /* Path to the image */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: #fff;
-    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;  /* Light gray background for a clean, professional look */
+    color: #333;                /* Dark gray text for readability */
+    text-align: center;         /* Centers content */
     padding: 20px;
-    background-color: #f4f4f4;  /* Fallback background color */
 }
+
+/* Header Styles */
+header {
+    background-color: #343a40;  /* Dark background for the header */
+    color: #fff;                /* White text in header */
+    padding: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #007bff;             /* Blue color for the main heading (professional color) */
+}
+
+/* Section Styles */
+section {
+    background-color: #ffffff;  /* White background for sections */
+    color: #333;                /* Dark text color */
+    padding: 30px;
+    margin-top: 20px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #007bff;             /* Primary blue color for links */
+}
+
+a:hover {
+    color: #0056b3;             /* Darker blue for hover effect */
+}
+
+/* Button Styles */
+button, .btn {
+    background-color: #28a745;  /* Green background for buttons */
+    color: #fff;                /* White text on buttons */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover, .btn:hover {
+    background-color: #218838;  /* Darker green on hover */
+}
+
+/* Footer Styles */
+footer 
