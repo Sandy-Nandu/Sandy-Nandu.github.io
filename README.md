@@ -13,4 +13,4 @@ I am a **Master’s student in Data Science** at the **University of New Haven**
 
 ## Contact Me  
 - **LinkedIn:** https://linkedin.com/in/devakinandan-p  
-- **GitHub:** [Sandy-Nandu] https://github.com/Sandy-Nandu  
+- **GitHub:** https://github.com/Sandy-Nandu  
