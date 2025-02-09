@@ -1,10 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('bimages/geometric-background.jpg');  /* Correct path */
+    background-image: url('bimages/geometric-background.jpg');  /* Path to the image */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     color: #fff;
     text-align: center;
     padding: 20px;
+    background-color: #f4f4f4;  /* Fallback background color */
 }
